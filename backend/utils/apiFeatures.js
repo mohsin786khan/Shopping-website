@@ -27,7 +27,7 @@ class ApiFeatures {
         const removeFields = ['keyword', 'limit', 'page'];         
         removeFields.forEach(el => delete querycopy[el]);
 
-        console.log(querycopy);
+       // console.log(querycopy);
 
 
         // advance filter for price, rating etc   
